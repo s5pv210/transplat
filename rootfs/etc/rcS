@@ -1,0 +1,6 @@
+echo ----------mount all..........
+mount -a
+echo ----------Starting mdev......
+echo /sbin/mdev > /proc/sys/kernel/hotplug
+mdev -s
+/bin/hostname -F /etc/sysconfig/HOSTNAME

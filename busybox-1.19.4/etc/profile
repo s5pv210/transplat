@@ -1,0 +1,8 @@
+PATH=/bin:/sbin:/usr/bin:/usr/sbin
+export PATH
+#set hostname
+HOSTNAME='/bin/hostname'
+export HOSTNAME
+# Set PS1
+PS1='[\u@\h \W]$'
+export PS1
